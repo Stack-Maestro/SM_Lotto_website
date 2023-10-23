@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="icons/all.min.css">
+    <title>https://StackMaestro_Lotto_website.com</title>
+</head>
+<body>
+    <video autoplay muted loop class="vik">
+        <source src="video/istockphoto-1157900267-640_adpp_is.mp4" type="video/mp4"  >
+    </video>
+    <section class="one">
+        
+       
+        <div class="mute">
+            <img src="images/win.png" alt="" width="300px">
+        </div>
+        <div class="imate">
+            <img src="images/licences.png" alt="" width="350px">
+        </div>
+        <div class="meat">
+            <img src="images/20679385-removebg-preview.png" alt="" width="300px">
+        </div>
+        <div class="men">
+            <img src="images/43813-removebg-preview.png" alt="" width="300px">
+
+        </div>
+
+        <div class="">
+            <p id="head"></p>
+            <p id="instruct"></p>
+            <input type="text" id="usernum">
+            <p id="message"></p>
+            <p id="comp_num"></p>
+            <p id="user_num"></p>
+
+        </div>
+
+        <div class="button">
+            <div class="same">
+            <button onclick="output('0')">0</button>
+            <button onclick="output('1')">1</button>
+            <button onclick="output('2')">2</button>
+             </div>
+             <div class="same">
+            <button onclick="output('3')">3</button>
+            <button onclick="output('4')">4</button>
+            <button onclick="output('5')">5</button>
+            </div>
+            <div class="same">
+            <button onclick="output('6')">6</button>
+            <button onclick="output('7')">7</button>
+            <button onclick="output('8')">8</button>
+            </div>
+            <div class="same">
+                <button onclick="output('9')">9</button>
+                <button onclick="cancel()"><i class="fa-regular fa-rectangle-xmark"></i></button>
+            <button onclick="canc()">cl</button>
+             </div>
+            <button onclick="output(',')">,</button>
+
+
+             
+
+            <button id="play" onclick="check()"><i class="fa-regular fa-lightbulb" style="color: orange;"></i></button>
+
+            <p id="error"></p>
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
